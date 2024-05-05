@@ -1,0 +1,32 @@
+/* Example usage of media queries in CSS */
+
+/* Styles for small screens (max-width: 738px) */
+@media (max-width: 738px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  
+  /* Styles for medium screens (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* Styles for large screens (max-width: 1366px) */
+  @media (max-width: 1366px) {
+    body {
+      font-size: 18px;
+    }
+    .container {
+      width: 60%;
+    }
+  }
+  

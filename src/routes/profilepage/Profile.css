@@ -1,0 +1,96 @@
+.profilePage {
+    display: flex;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .profilePage {
+      flex-direction: column;
+      overflow: scroll;
+    }
+  }
+  
+  .details {
+    flex: 3;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .details {
+      flex: none;
+      height: max-content;
+    }
+  }
+  
+  .details .wrapper {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .details .wrapper .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .details .wrapper .title h1 {
+    font-weight: 300;
+  }
+  
+  .details .wrapper .title button {
+    padding: 12px 24px;
+    background-color: #fece51;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .details .wrapper .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .details .wrapper .info span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .details .wrapper .info button {
+    width: 100px;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .details .wrapper .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .chatContainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .chatContainer {
+      flex: none;
+      height: max-content;
+    }
+  }
+  
+  .chatContainer .wrapper {
+    padding: 0px 20px;
+    height: 100%;
+  }
+  
